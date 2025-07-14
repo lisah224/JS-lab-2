@@ -1,0 +1,248 @@
+#body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: " #f0f0f0;";
+        }
+#para2 {
+	text-align:center;
+	color:black;
+	border:2px solid blue;
+	background-color: blue;
+	 margin: 10px auto;
+	  padding: 20px;
+	
+}
+#form{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: "";
+        }
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+    text-align: justify;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #002b5c; /* muted deep blue */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #005a9e; /* rich blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004080;
+}
+input, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .error {
+      color: red;
+      font-size: 0.9em;
+    }
+    .success {
+      color: green;
+      font-size: 1em;
+      text-align: center;
+    }
+#sign-in{
+    font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: "";
+}
+.signup-section {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.signup-section p {
+    text-align: justify;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.signup-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-section label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #002b5c;
+}
+
+.signup-section input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.signup-section button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #005a9e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color: #004080;
+}
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: black;
+}
+
+#topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: none;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+#clock {
+  font-size: 18px;
+  font-weight: bold;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header.hero {
+    background-color: #0a3d62; /* Deep blue */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0a3d62;
+    border: 2px solid #0a3d62;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.about {
+    background-color: #ecf0f1; /* Light grey */
+    color: black;
+}
+
+.significance {
+    background-color:#2a3439 ;
+    color: white;
+}
+
+.opportunities {
+    background-color: #2f3640; /* Dark grey */
+    color: white;
+}
+
+.built {
+    background-color: black;
+    color: white;
+}
+
+.cta {
+    background-color: #3498db; /* Vivid blue */
+    color: white;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #0a3d62;
+    color: white;
