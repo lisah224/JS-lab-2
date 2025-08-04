@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="mymain.css">
+</head>
+<p id="clock">Loading time...</p>
+    <button id="theme-toggle">🌗 Toggle Theme</button>
+<body>
+    <body id="was"  class="vase">
+
+    <body onload="startClock()"> 
+ <h1 id="para2"style="color:white;text-align:center;">Welcome to ACADEX!</h1><br>
+    
+
+    <p style="color:white;text-align:center;">🌍 Discover Top Universities Worldwide
+Explore the most popular and best-performing universities across the globe.<br> Sign up below to start your academic journey with informed choices!</p>
+    <div class="signup-section">
+        <p>Please complete the form below to create your account. All fields are required for registration. Once submitted, your account will be securely created, and you'll be redirected to the homepage.</p>
+        
+        <form id="sign-in" >
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label>User Account:</label>
+            <select id="accountType" required>
+            <option value="">--Select--</option>
+            <option value="University Application">University Application</option>
+            <option value="Scholarship">Scholarship</option>
+            <option value="Short courses">Short courses</option>
+            <option value="Exchange Program">Exchange Program</option>
+            </select>
+            <div class="error" id="passwordError"></div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="error" id="confirmError"></div>
+            <p id="message"></p>
+            <label for= "Confirm Password"> Confirm Password</label>
+            <input type="password" id="confirmPassword" required>
+            <div class="error" id="confirmError"></div>
+            <p id="message"></p>
+
+            <button type="submit" style="color:white"><a href="applicationform.HTML">Sign up</button>
+        </form>
+    </div>
+    <p style="color:black;text-align:center;">Already have an account!? <a href="loginpage.HTML">Log in here!</a></p>
+    <script src ="apps.js"></script>
+
+    
+</body>
+
+
+<footer>
+    <p>&copy; 2025 ACADEX. All rights reserved.</p>
+</footer>
+</html>
